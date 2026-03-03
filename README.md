@@ -42,13 +42,12 @@ Search for **Royal GuardRails** by **TheBusyBard**, or use the direct link once 
 
 ### Manual / Developer Install
 
-1. Clone or download this repo
-   git clone https://github.com/TheBusyBard/RoyalGuardrails.git
-   git clone https://github.com/TheBusyBard/royal-guardrails.git
+1. Clone or download this repo - Hit the ... and download as a zip, or use clone commands if you know how to use git.
    ```
-2. Open Chrome and go to `chrome://extensions`
+   git clone https://github.com/TheBusyBard/RoyalGuardrails.git
+   ```
+3. Open Chrome and go to `chrome://extensions`
 4. Click **Load unpacked** and select the `RoyalGuardrails` folder
-4. Click **Load unpacked** and select the `rr-extension` folder
 5. The Royal GuardRails icon will appear in your toolbar
 
 ---
@@ -101,7 +100,7 @@ Royal GuardRails collects **no data whatsoever**.
 - Your toggle preferences are stored locally in your own browser via `chrome.storage.local` and never leave your device
 - The only permission requested beyond storage is `activeTab`, which is required to apply hiding rules to the current Royal Road page
 
-You can verify all of this by reading the source — there are no external scripts, no third-party libraries, and no calls to any server.
+You can verify all of this by reading the source: no external scripts, no third-party libraries, and no calls to any server.
 
 ---
 
@@ -125,8 +124,6 @@ MIT — do whatever you like with it. See [LICENSE](LICENSE) for details.
 ---
 
 Made by [TheBusyBard](https://github.com/TheBusyBard) — a writer who kept reading their reviews when they should have been writing.
-
----
 
 📖 [Read my work on Royal Road](https://www.royalroad.com/profile/687836/fictions) — if you enjoy the extension, maybe you will enjoy the stories too.
 
