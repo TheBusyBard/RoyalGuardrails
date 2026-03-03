@@ -10,7 +10,7 @@
 
 ## Why?
 
-Royal Road is great for sharing your fiction — but every time you open your dashboard you're greeted with a wall of comments, review scores, and notification badges. It's hard not to read them, and once you do, the writing session is over.
+Royal Road is great for sharing your fiction — but every time you open your dashboard you're greeted with a wall of comments, review scores, and notification badges. It's hard not to read them, and once you do, emotions go up or tank hard. (At least I know mine do)
 
 Royal GuardRails lets you toggle all of that off with one click, so you can check your stats, update your chapters, and get out without the distraction spiral.
 
