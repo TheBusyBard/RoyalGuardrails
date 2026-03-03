@@ -2,7 +2,7 @@
 
 > A Chrome extension that hides comments, reviews, and notifications on [Royal Road](https://royalroad.com) — so you can open your dashboard and actually write.
 
-![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-available-brightgreen?logo=google-chrome&logoColor=white)
+![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-coming%20soon-lightgrey?logo=google-chrome&logoColor=white)
 ![Manifest Version](https://img.shields.io/badge/Manifest-v3-blue)
 ![License](https://img.shields.io/badge/license-MIT-purple)
 
