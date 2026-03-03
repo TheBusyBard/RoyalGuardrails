@@ -1,0 +1,16 @@
+/* Royal Road Focus Mode - hide.css */
+
+/* Notification badges - main navbar */
+html.rrf-hide-notifications .badge.badge-danger.alert.no-announcement {
+  display: none !important;
+}
+
+/* Notification badges - author page */
+html.rrf-hide-notifications .badge.badge-danger.notification-counter {
+  display: none !important;
+}
+
+/* Hide all notification badges in the notifications dropdown */
+html.rrf-hide-notifications .dropdown-notification .badge {
+  display: none !important;
+}
