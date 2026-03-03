@@ -10,9 +10,9 @@
 
 ## Why?
 
-Royal Road is great for sharing your fiction — but every time you open your dashboard you're greeted with a wall of comments, review scores, and notification badges. It's hard not to read them, and once you do, your emotions are either rising or falling based on what people said (At least mine do.)
+Royal Road is great for sharing your fiction — but every time you open your dashboard you're greeted with a wall of comments, review scores, and notification badges. It's hard not to read them, and once you do, emotions go up or tank hard. (At least I know mine do)
 
-Royal GuardRails lets you toggle all of that off with one click, so you can check your stats, update your chapters, and get out without the doom distraction spiral.
+Royal GuardRails lets you toggle all of that off with one click, so you can check your stats, update your chapters, and get out without the distraction spiral.
 
 ---
 
@@ -42,13 +42,12 @@ Search for **Royal GuardRails** by **TheBusyBard**, or use the direct link once 
 
 ### Manual / Developer Install
 
-1. Clone or download this repo
-   ```bash
-   git clone https://github.com/TheBusyBard/royal-guardrails.git
+1. Clone or download this repo - Hit the ... and download as a zip, or use clone commands if you know how to use git.
    ```
-2. Open Chrome and go to `chrome://extensions`
-3. Enable **Developer Mode** (toggle in the top-right corner)
-4. Click **Load unpacked** and select the `rr-extension` folder
+   git clone https://github.com/TheBusyBard/RoyalGuardrails.git
+   ```
+3. Open Chrome and go to `chrome://extensions`
+4. Click **Load unpacked** and select the `RoyalGuardrails` folder
 5. The Royal GuardRails icon will appear in your toolbar
 
 ---
@@ -63,8 +62,8 @@ Search for **Royal GuardRails** by **TheBusyBard**, or use the direct link once 
 ---
 
 ## Project Structure
-
 ```
+RoyalGuardrails/
 rr-extension/
 ├── manifest.json      # Extension config (Manifest V3)
 ├── content.js         # Injected script — applies hide flags to the page
@@ -101,7 +100,7 @@ Royal GuardRails collects **no data whatsoever**.
 - Your toggle preferences are stored locally in your own browser via `chrome.storage.local` and never leave your device
 - The only permission requested beyond storage is `activeTab`, which is required to apply hiding rules to the current Royal Road page
 
-You can verify all of this by reading the source — there are no external scripts, no third-party libraries, and no calls to any server.
+You can verify all of this by reading the source: no external scripts, no third-party libraries, and no calls to any server.
 
 ---
 
@@ -126,3 +125,6 @@ MIT — do whatever you like with it. See [LICENSE](LICENSE) for details.
 
 Made by [TheBusyBard](https://github.com/TheBusyBard) — a writer who kept reading their reviews when they should have been writing.
 
+📖 [Read my work on Royal Road](https://www.royalroad.com/profile/687836/fictions) — if you enjoy the extension, maybe you will enjoy the stories too.
+
+☕ [Buy me a coffee](https://buymeacoffee.com/thebusybard)
