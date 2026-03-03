@@ -10,9 +10,9 @@
 
 ## Why?
 
-Royal Road is great for sharing your fiction — but every time you open your dashboard you're greeted with a wall of comments, review scores, and notification badges. It's hard not to read them, and once you do, the writing session is over.
+Royal Road is great for sharing your fiction — but every time you open your dashboard you're greeted with a wall of comments, review scores, and notification badges. It's hard not to read them, and once you do, your emotions are either rising or falling based on what people said (At least mine do.)
 
-Royal GuardRails lets you toggle all of that off with one click, so you can check your stats, update your chapters, and get out without the distraction spiral.
+Royal GuardRails lets you toggle all of that off with one click, so you can check your stats, update your chapters, and get out without the doom distraction spiral.
 
 ---
 
@@ -91,6 +91,20 @@ This means no flicker — elements are hidden before they're ever visible.
 
 ---
 
+## Privacy
+
+Royal GuardRails collects **no data whatsoever**.
+
+- No analytics
+- No tracking
+- No network requests — the extension never phones home
+- Your toggle preferences are stored locally in your own browser via `chrome.storage.local` and never leave your device
+- The only permission requested beyond storage is `activeTab`, which is required to apply hiding rules to the current Royal Road page
+
+You can verify all of this by reading the source — there are no external scripts, no third-party libraries, and no calls to any server.
+
+---
+
 ## Contributing
 
 Contributions are welcome! Royal Road occasionally updates their HTML structure, so selectors may need updating over time.
@@ -111,3 +125,4 @@ MIT — do whatever you like with it. See [LICENSE](LICENSE) for details.
 ---
 
 Made by [TheBusyBard](https://github.com/TheBusyBard) — a writer who kept reading their reviews when they should have been writing.
+
