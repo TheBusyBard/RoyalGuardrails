@@ -1,6 +1,8 @@
 {
   "manifest_version": 3,
-  "version": "1.0.0",
+  "name": "Royal GuardRails - Focus mode for Royal Road",
+  "short_name": "Royal GuardRails",
+  "version": "1.0.3",
   "description": "Hide comments, reviews, and notifications on Royal Road so you can focus on your writing.",
   "author": "TheBusyBard",
   "permissions": [
