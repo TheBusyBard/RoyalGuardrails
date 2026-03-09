@@ -1,13 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "Royal GuardRails - Focus mode for Royal Road",
-  "short_name": "Royal GuardRails",
   "version": "1.0.0",
   "description": "Hide comments, reviews, and notifications on Royal Road so you can focus on your writing.",
   "author": "TheBusyBard",
-  "homepage_url": "https://github.com/TheBusyBard/RoyalGuardrails",
-  "permissions": ["storage", "activeTab"],
-  "host_permissions": ["*://*.royalroad.com/*"],
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.royalroad.com/*"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_title": "Royal GuardRails",
@@ -17,12 +18,20 @@
       "128": "icons/icon128.png"
     }
   },
-  "content_scripts": [{
-    "matches": ["*://*.royalroad.com/*"],
-    "js": ["content.js"],
-    "css": ["hide.css"],
-    "run_at": "document_start"
-  }],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.royalroad.com/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "hide.css"
+      ],
+      "run_at": "document_start"
+    }
+  ],
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
